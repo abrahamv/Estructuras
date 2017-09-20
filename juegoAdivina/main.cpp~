@@ -1,0 +1,32 @@
+
+class Jugador{
+  string nombre;
+  int vidas;
+public:
+  Jugador(){
+    nombre="";
+    vidas=3;
+  }
+  void cargarDatos(){
+    cout<<"Ingrese sus datos: "<<endl;
+    cout<<"nombre: "<<endl;
+    cin.ignore();
+    getline(cin,nombre);
+    
+  }
+};
+class Juego{
+  
+};
+
+
+int main(){
+
+  Jugador player1;
+  Juego adivina;
+
+  player1.cargarDatos();
+  adivina.cargarJugador(player1);
+  adivina.jugar();
+  return 0;
+}
