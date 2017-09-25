@@ -1,0 +1,12 @@
+
+
+int main()
+{
+  int i;
+  Persona persona[35];
+  for (i=0;i<35;i++){
+
+  }
+
+  
+}
